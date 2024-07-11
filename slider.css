@@ -9,17 +9,17 @@
   overflow: hidden;
   text-align: center;
   position: relative;
-  background-image: url('3d1.jpg');
-  background-size: cover;
+  /* background-image: url('3d1.jpg'); */
+  /* background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center; */
 }
 
 .banner .slider {
   width: 150px;
   height: 200px;
   position: absolute;
-  top: 30%;
+  top: 35%;
   left: calc(50% - 100px);
   transform-style: preserve-3d;
   transform: perspective(800px);
@@ -49,20 +49,16 @@
   object-fit: cover;
   border-radius: 10px;
 }
-.container{
-  margin-top: 20px;
-  font-size: 40px;
-  color: rgb(147, 54, 70);
-  align-items: center;
-}
 
-/* .container {
+.container {
   margin-top: 20px;
   font-size: 40px;
-  color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.container h2{
+  color: blueviolet;
 }
 
 .select-container {
@@ -73,26 +69,22 @@
   margin-top: 10px;
 }
 
-#back, #or {
-  background-color: aliceblue;
-  color: tomato;
+#back{
+  background-color: rgb(97, 136, 170);
+  color: black;
   padding: 5px;
-  border: 1px solid #ccc;
+  font-weight: 600;
+  font-size: 15px;
+  border: 1px solid #8e2f6d;
   border-radius: 4px;
+  z-index: 20;
 }
-
-#back {
-  margin-right: auto;
-}
-
-#or {
-  margin-left: auto;
-} */
 @media (max-width: 768px) {
   .banner .slider {
-    width: 120px;
-    height: 160px;
+    width: 140px;
+    height: 180px;
     transform: perspective(500px);
+    top: 40%
 
   }
 
