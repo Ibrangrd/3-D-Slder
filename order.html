@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <link rel="stylesheet" href="order.css">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmniIuBu1B7PSIFiW_pUxf2ZQKa5IZxqRj_g&s">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="order.html">Order Now</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+    <form  action="https://api.web3forms.com/submit" method="POST" class="left">
+   <div class="contact">
+    <h2>ORDER  NOW</h2>
+   </div>
+   <input type="hidden" name="access_key" value="150ddb2d-5e1a-40be-9b23-f61c069139c3">
+   <input type="text" name="name" placeholder="Your name " required class="contact_input">
+   <input type="number" name="number" placeholder="Your Number" required class="contact_input">
+  
+   <select name="item" required class="input">
+    <option value="" disabled selected>Select your item </option>
+    <option value="Litti">Litti</option>
+    <option value="Litti+Chokha">Litti+Chokha</option>
+    <option value="Litti+chicken">Litti+chicken</option>
+    <option value="Fry Litti">Fry Litti</option>
+    <option value="Fry Litti + Chokha">Fry Litti + Chokha</option>
+    <option value="onion-pakoda">onion-pakoda</option>
+
+  </select>
+  <input type="number" name="quantity" placeholder="Quantity" required class="contact_input">
+   <textarea name="message" placeholder="Your Hostal no. and room number." required class="contact_input"></textarea> 
+   <button type="submit"> Sumit </button>
+    </form>
+    <div class="right">
+        <img src="#" alt="">
+    </div>
+
+
+    </div>
+    
+    
+</body>
+
+</html>
